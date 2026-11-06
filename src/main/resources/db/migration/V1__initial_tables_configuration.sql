@@ -52,8 +52,8 @@ CREATE TABLE university.lectures
     id                 SERIAL PRIMARY KEY,
     type               VARCHAR(15),
     room_id            INTEGER,
-    lecture_time_start TIMESTAMP,
-    lecture_time_end   TIMESTAMP
+    start_time TIMESTAMP,
+    end_time   TIMESTAMP
 );
 
 
